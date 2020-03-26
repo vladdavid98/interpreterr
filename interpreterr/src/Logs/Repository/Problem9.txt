@@ -1,0 +1,924 @@
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = 5 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 5
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 ;Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 5
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 5
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
++---------------------------------------------------------------
+
+ExecutionStack: 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 ;Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 3
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 3
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 ;Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 3
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 3
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 2
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 2
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 ;Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 2
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 2
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 ;Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 0
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 0
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 0, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+Empty
+
+SymbolTable: 
+	a     = 0
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 0, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = 5 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	Empty
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 5
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 ;Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 5
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 5
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
++---------------------------------------------------------------
+
+ExecutionStack: 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	Empty
+
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 ;Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 4
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 3
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 3
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 ;Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 3
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 3
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 2
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 2
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 ;Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 2
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 2
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 ;Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	a = a - 1 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 1
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	Print( a )
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 0
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+	While( a > 0 then: a = a - 1 ;Print( a ) 
+
+
+SymbolTable: 
+	a     = 0
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 0, 
++---------------------------------------------------------------
+
+ExecutionStack: 
+Empty
+
+SymbolTable: 
+	a     = 0
+
+
+FileTable: 
+	Empty
+
+
+ Heap: 
+	Empty
+
+Output: 
+	4, 3, 2, 1, 0, 
